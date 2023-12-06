@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libGHE
+Description: Userspace interface to GHE Algorithm
+Version: 1.0
+Libs: -L${libdir} -lGHE
+Cflags: -I${includedir}
